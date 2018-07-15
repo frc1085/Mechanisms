@@ -1,10 +1,54 @@
 <linkage2>
-	<program zoom="8.157307" xoffset="-871" yoffset="-576" scalefactor="1.000000" units="Millimeters" backgroundtransparency="0.000000" xgrid="" ygrid=""/>
-	<connector id="0" selected="false" layer="16" x="-154.960630" y="85.704882" anchor="true" color="16711680" usercolor="false"/>
-	<connector id="1" selected="false" layer="16" x="-106.584189" y="85.704945" draw="true" color="12632064" usercolor="false"/>
-	<Link id="0" selected="false" layer="16" linesize="1" solid="true" actuator="true" startoffset="0.000000" throw="21.031559" cpm="15.000000" shapetype="hull" color="16711680" usercolor="false">
+	<program zoom="321.183880" xoffset="-40398" yoffset="-30953" scalefactor="1.000000" units="Millimeters" backgroundtransparency="0.000000" xgrid="" ygrid=""/>
+	<connector id="4" selected="false" layer="16" x="-126.029052" y="96.708421" anchor="true" color="6854344" usercolor="false"/>
+	<connector id="5" selected="false" layer="16" x="-125.693886" y="96.708421" color="11012476" usercolor="false"/>
+	<connector id="6" selected="false" layer="16" x="-125.513304" y="96.708421" anchor="true" color="16744448" usercolor="false"/>
+	<connector id="7" selected="false" layer="16" x="-125.291339" y="96.836325" color="11272364" usercolor="false"/>
+	<connector id="8" selected="false" layer="16" x="-125.606671" y="96.873272" anchor="true" color="8439808" usercolor="false"/>
+	<connector id="9" selected="false" layer="16" x="-125.384705" y="97.001176" color="13123282" usercolor="false"/>
+	<connector id="2" selected="false" layer="16" x="-124.856122" y="96.836325" color="32768" usercolor="false"/>
+	<connector id="0" selected="false" layer="16" x="-126.029052" y="96.593310" anchor="true" color="4243584" usercolor="false"/>
+	<connector id="1" selected="false" layer="16" x="-125.693886" y="96.593310" color="8421440" usercolor="false"/>
+	<connector id="3" selected="false" layer="16" x="-125.513304" y="96.593310" anchor="true" color="12599551" usercolor="false"/>
+	<connector id="10" selected="false" layer="16" x="-125.291339" y="96.465406" color="2121760" usercolor="false"/>
+	<connector id="11" selected="false" layer="16" x="-125.606671" y="96.428459" anchor="true" color="6324424" usercolor="false"/>
+	<connector id="12" selected="false" layer="16" x="-125.384705" y="96.300555" color="8855748" usercolor="false"/>
+	<connector id="13" selected="false" layer="16" x="-124.856122" y="96.465406" color="223719" usercolor="false"/>
+	<Link id="0" selected="false" layer="16" linesize="1" solid="true" actuator="true" startoffset="0.622342" throw="0.113386" cpm="15.000000" shapetype="hull" color="16711680" usercolor="false">
+		<connector id="4"/>
+		<connector id="5"/>
+	</Link>
+	<Link id="1" selected="false" layer="16" linesize="1" solid="true" shapetype="hull" color="12632064" usercolor="false">
+		<connector id="6"/>
+		<connector id="7"/>
+	</Link>
+	<Link id="2" selected="false" layer="16" linesize="1" solid="true" shapetype="hull" color="32768" usercolor="false">
+		<connector id="8"/>
+		<connector id="9"/>
+		<connector id="5"/>
+	</Link>
+	<Link id="3" selected="false" layer="16" linesize="1" solid="true" shapetype="hull" color="16711808" usercolor="false">
+		<connector id="2"/>
+		<connector id="9"/>
+		<connector id="7"/>
+	</Link>
+	<Link id="4" selected="false" layer="16" linesize="1" solid="true" actuator="true" startoffset="0.622342" throw="0.113386" cpm="15.000000" shapetype="hull" color="6854344" usercolor="false">
 		<connector id="0"/>
 		<connector id="1"/>
+	</Link>
+	<Link id="5" selected="false" layer="16" linesize="1" solid="true" shapetype="hull" color="11012476" usercolor="false">
+		<connector id="3"/>
+		<connector id="10"/>
+	</Link>
+	<Link id="6" selected="false" layer="16" linesize="1" solid="true" shapetype="hull" color="16744448" usercolor="false">
+		<connector id="11"/>
+		<connector id="12"/>
+		<connector id="1"/>
+	</Link>
+	<Link id="7" selected="false" layer="16" linesize="1" solid="true" shapetype="hull" color="11272364" usercolor="false">
+		<connector id="13"/>
+		<connector id="12"/>
+		<connector id="10"/>
 	</Link>
 	<selected>
 	</selected>
